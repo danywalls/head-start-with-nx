@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./navigation.component.scss'],
 })
 export class NavigationComponent {
-  @Input() navOptions = ['home', 'about'];
+  @Input() navOptions = ['home', 'about', 'contact'];
 }
